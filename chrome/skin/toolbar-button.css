@@ -1,0 +1,9 @@
+/*  skin/toolbar-button.css  */
+
+#extanywhere-button {
+  list-style-image: url("chrome://extensionanywhere/skin/favicon-24x24.png");
+}
+
+toolbar[iconsize="small"] #extanywhere-button {
+  list-style-image: url("chrome://extensionanywhere/skin/favicon-16x16.png");
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://extensionanywhere/skin/toolbar-button.css" type="text/css"?>
+
+<overlay id="extanywhere"  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<script type="application/javascript" src="anywhere.min.js"/>
+	<toolbarpalette id="BrowserToolbarPalette">
+   		<toolbarbutton id="extanywhere-button" class="toolbarbutton-1"
+    			label="Anywhere" tooltiptext="Go Anywhere !" oncommand="goAnywhere();"/>
+	</toolbarpalette>
+</overlay>

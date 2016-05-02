@@ -1,0 +1,4 @@
+content extensionanywhere chrome/content/
+overlay chrome://browser/content/browser.xul chrome://extensionanywhere/content/anywhere.xul
+skin extensionanywhere class/1.0 chrome/skin/
+style chrom://browser/content/anywhere.xul chrome://extensionanywhere/skin/toolbar-button.css

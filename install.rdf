@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>anywhere@swapthat.link</em:id>
+    <em:version>0.3</em:version>
+    <em:type>2</em:type>
+   
+    <!-- L'application cible de votre extension, 
+         avec les versions minimums et maximums supportées. --> 
+    <em:targetApplication>
+      <Description>
+      	<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>4.0</em:minVersion>
+        <em:maxVersion>42.0</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+   
+    <!-- Méta-données visibles -->
+    <em:name>Anywhere</em:name>
+    <em:description>put this bookmarklet in your fav bar. Click it anytime, it will take you anywhere.</em:description>
+    <em:creator>the random initiative</em:creator>
+    <em:homepageURL>http://prise6.github.com/anywhere</em:homepageURL>
+  </Description>      
+</RDF>
